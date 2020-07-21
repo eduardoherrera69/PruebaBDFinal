@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5816AC57-3DBC-AD9F-8B4E-DD409E758901" name="Respuesta">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 02:08:48 UTC</createdTime>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<engineerTo>
+<item key="0F6F04AD-6F29-BD0E-0BDC-AC96B3341CCD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdRespuesta" id="63E4F961-4AE5-B370-7011-00D51800A824">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 02:09:03 UTC</createdTime>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<engineerTo>
+<item key="0F6F04AD-6F29-BD0E-0BDC-AC96B3341CCD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DescResp" id="5AD00CD4-258F-4085-348F-553F523C2514">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 02:09:25 UTC</createdTime>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<engineerTo>
+<item key="0F6F04AD-6F29-BD0E-0BDC-AC96B3341CCD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TrueFalse" id="D003A09F-4E42-84DB-5422-80D301582552">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 02:10:14 UTC</createdTime>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<engineerTo>
+<item key="0F6F04AD-6F29-BD0E-0BDC-AC96B3341CCD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Omitida" id="E8F09710-097B-BC4F-5076-488C58CB3CFF">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 02:11:03 UTC</createdTime>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<engineerTo>
+<item key="0F6F04AD-6F29-BD0E-0BDC-AC96B3341CCD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PreguntaId" id="3B085582-468F-B978-1637-0CFDE50E10C2">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 02:17:10 UTC</createdTime>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<engineerTo>
+<item key="0F6F04AD-6F29-BD0E-0BDC-AC96B3341CCD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Test IdTest" id="91B2A860-91C8-DA41-416F-20A75416D708">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 02:27:18 UTC</createdTime>
+<generatorID>0858B243-688A-5ABF-9940-6CEFBAD1DBBF</generatorID>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<engineerTo>
+<item key="0F6F04AD-6F29-BD0E-0BDC-AC96B3341CCD" value="true"/>
+</engineerTo>
+<referedAttribute>9B65381C-A920-97AE-1A45-5719625722E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FA6D19D1-5552-1EEA-011E-BDD9BF9899E3" name="Respuesta PK">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 02:09:21 UTC</createdTime>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<engineerTo>
+<item key="0F6F04AD-6F29-BD0E-0BDC-AC96B3341CCD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>63E4F961-4AE5-B370-7011-00D51800A824</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

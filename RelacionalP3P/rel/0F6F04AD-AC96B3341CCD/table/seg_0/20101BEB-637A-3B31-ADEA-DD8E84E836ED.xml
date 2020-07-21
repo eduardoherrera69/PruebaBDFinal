@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20101BEB-637A-3B31-ADEA-DD8E84E836ED" name="Alumno">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 03:34:14 UTC</createdTime>
+<generatorID>9B0708A6-2884-DBC5-FF3F-651B62F3DEF3</generatorID>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdAlumno" id="390DA294-A728-D852-C165-64E6494630EE">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 03:34:14 UTC</createdTime>
+<generatorID>AAFA3547-9231-CCA4-7C7D-A7E334F60FCA</generatorID>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="B4855E12-BE31-158C-2F4B-BEDA59A5F8BD">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 03:34:14 UTC</createdTime>
+<generatorID>DBD0E1E2-7305-50B6-F918-2A8C052F3607</generatorID>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Curso_IdCurso" id="EE07C0A0-9A1C-3DD5-2EAE-D98919EDACC9">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 03:34:14 UTC</createdTime>
+<generatorID>20F05ED0-86A2-2A81-1EB2-645B94C7B7AA</generatorID>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AAB483D3-3CE4-7006-BD2D-82EFDA8FF672" referredColumn="3EB1C71D-C177-2FC7-3C48-E7F2732A17D5"/>
+</associations>
+</Column>
+<Column name="IdAlumno1" id="41CB3C86-1916-1507-0DD4-D28C6F757386">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 03:34:14 UTC</createdTime>
+<generatorID>BE1BAC7F-68C4-7813-9C08-820730985F14</generatorID>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF57135D-F00B-4B5B-884C-A16E5C30BAFF" name="Alumno_PK">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 03:34:14 UTC</createdTime>
+<generatorID>FA246FF4-4144-6798-BF62-FEA30EC62E2E</generatorID>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="390DA294-A728-D852-C165-64E6494630EE"/>
+<colUsage columnID="EE07C0A0-9A1C-3DD5-2EAE-D98919EDACC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C492A2A-87A4-F495-771C-B132DD0EBFBB" name="Alumno_Curso_FK">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 03:34:14 UTC</createdTime>
+<generatorID>19AB83F7-AFFB-B9D6-299F-357F1AD010FB</generatorID>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE07C0A0-9A1C-3DD5-2EAE-D98919EDACC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

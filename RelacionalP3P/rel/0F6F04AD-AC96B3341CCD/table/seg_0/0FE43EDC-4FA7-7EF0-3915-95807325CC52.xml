@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FE43EDC-4FA7-7EF0-3915-95807325CC52" name="Curso">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 03:34:14 UTC</createdTime>
+<generatorID>422C802B-D890-C8C1-2237-8A6342D5455A</generatorID>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCurso" id="3EB1C71D-C177-2FC7-3C48-E7F2732A17D5">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 03:34:14 UTC</createdTime>
+<generatorID>49C0A3C8-7C8B-9591-3B37-3E5ABEF0ED78</generatorID>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NomCurso" id="C3994058-F0B6-ED84-3231-F144C06B2027">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 03:34:14 UTC</createdTime>
+<generatorID>55B84F5F-E6E2-6055-469C-D15009472A65</generatorID>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13A6AD15-6455-3A4D-4A1E-A08B5C6185EA" name="Curso_PK">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 03:34:14 UTC</createdTime>
+<generatorID>5DF901CF-C819-ED0D-1D02-AADC139A29F5</generatorID>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EB1C71D-C177-2FC7-3C48-E7F2732A17D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

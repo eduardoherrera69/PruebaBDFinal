@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE212428-3506-A71C-870F-5E08C92F730E" name="RespAlt">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 03:34:14 UTC</createdTime>
+<generatorID>D38F9472-9DDE-E8F5-B6FA-67FAC78C42E3</generatorID>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdRespAlt" id="DD3F7382-1865-0A7B-6188-3A748FF24A86">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 03:34:14 UTC</createdTime>
+<generatorID>47DB33F6-32C6-1A26-2695-A322BFB2982F</generatorID>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VerFalso" id="089EC517-9E89-F55D-A472-D76E6A497CDE">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 03:34:14 UTC</createdTime>
+<generatorID>499380DA-66B7-A39E-E97D-82358E1D8C5B</generatorID>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AlternativaId" id="A4D6D1F3-D793-E24B-D5C0-9D3248E24FBC">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 03:34:14 UTC</createdTime>
+<generatorID>72D0A1EE-F4F0-F983-AA02-413222EFA124</generatorID>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Respuesta_IdRespuesta" id="98262E32-A496-AA76-4715-1A999A6BA764">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 03:34:14 UTC</createdTime>
+<generatorID>54D663DD-37B9-E024-03FB-143E6B797E67</generatorID>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF1CEA6B-10DA-269B-D2C2-EF6EAE1722D6" referredColumn="BF6E6D6F-87B2-9809-AC8D-D515E793B882"/>
+</associations>
+</Column>
+<Column name="Respuesta_IdTest" id="D99338DC-FA24-63B3-CB61-3499DC947F8B">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 03:34:14 UTC</createdTime>
+<generatorID>BEE2F89D-92E8-5719-2057-71FBD6FF2542</generatorID>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Respuesta_IdAlumno" id="5751B9F9-0540-9776-36D2-B68248DD7F07">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 03:34:14 UTC</createdTime>
+<generatorID>9E2ADDF2-E6D0-1928-F519-6345C941D013</generatorID>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Respuesta_IdCurso" id="5916A644-1938-5D3F-1C7C-E8DE0649E994">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 03:34:14 UTC</createdTime>
+<generatorID>C642AAF9-AE83-AC72-A931-7ACBD3C71C2C</generatorID>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Respuesta_PreguntaId" id="CB737C2D-1253-0E24-F4F9-CEEE02DE206B">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-16 01:15:48 UTC</createdTime>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A3656A3-73D1-8028-B433-E377F2F7469D" name="RespAlt_PK">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 03:34:14 UTC</createdTime>
+<generatorID>C07A21C9-863B-E979-EBD6-C42765D4DFBD</generatorID>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD3F7382-1865-0A7B-6188-3A748FF24A86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B85AE1A-6E01-08ED-0771-7DE579C4D847" name="RespAlt_Respuesta_FK">
+<createdBy>pherr</createdBy>
+<createdTime>2020-03-15 03:34:14 UTC</createdTime>
+<generatorID>54510C3B-552C-20A3-65C1-396D9328568D</generatorID>
+<ownerDesignName>RelacionalP3P</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98262E32-A496-AA76-4715-1A999A6BA764"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
